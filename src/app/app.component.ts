@@ -9,22 +9,8 @@ declare var $: any
 })
 export class AppComponent {
   title = 'ETicaretClient';
-  constructor(private toastrService: CustomToastrService) {
-    toastrService.message("Mesajimiz", "Title", {
-      messageType: ToastrMessageType.Error,
-      position: ToastrPosition.BottomCenter
-    });
-    toastrService.message("Mesajimiz", "Title", {
-      messageType: ToastrMessageType.Info,
-      position: ToastrPosition.BottomFullWidth
-    });
-    toastrService.message("Mesajimiz", "Title", {
-      messageType: ToastrMessageType.Success,
-      position: ToastrPosition.TopRight
-    });
-    toastrService.message("Mesajimiz", "Title", {
-      messageType: ToastrMessageType.Warning,
-      position: ToastrPosition.TopFullWidth
-    });
+  constructor() {
   }
 }
+
+//Ders 16 dakika 19:35
